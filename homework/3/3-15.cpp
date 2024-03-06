@@ -1,4 +1,3 @@
-/*
 #include<iostream>
 
 using namespace std;
@@ -28,5 +27,5 @@ int main(){
   cout << getPower(n, x);
   return 0;
 }
-*/
+
 
