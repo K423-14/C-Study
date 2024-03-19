@@ -35,6 +35,7 @@ void showPerson3(T1& p){
 
 int main(){
   Person<int, string> p(500, "孙悟空");
+  cout << typeid(p).name() << endl;
   showPerson1(p);
   showPerson2(p);
   showPerson3(p);
