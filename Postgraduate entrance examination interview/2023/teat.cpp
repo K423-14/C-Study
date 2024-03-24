@@ -21,5 +21,10 @@ int main(){
   BubbleSort(a, 5);
   for(int i = 0; i <5; i++)
     cout << a[i] << endl;
+  
+  double *p;
+  cout << sizeof(p) << " " << sizeof(*p) << endl;
+
+
   return 0;
 }
