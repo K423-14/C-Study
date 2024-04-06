@@ -43,16 +43,16 @@ void read(fstream &fs){
   // }
 
   //3
-  // string bfs;
-  // while(getline(fs, bfs)){
-  //   cout << bfs << endl;
-  // }
+  string bfs;
+  while(getline(fs, bfs)){
+    cout << bfs << endl;
+  }
 
   //4
-  char c;
-  while((c = fs.get()) != EOF){  // end of file
-    cout << c;
-  }
+  // char c;
+  // while((c = fs.get()) != EOF){  // end of file
+  //   cout << c;
+  // }
 
   fs.close();
 
